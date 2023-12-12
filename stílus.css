@@ -1,0 +1,102 @@
+img {
+    width: 200px;
+    height:auto;
+}
+
+#fotartalom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "n n n"
+    "m m m"
+    "f f f"
+    ;
+    width: 90%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+header {
+     grid-area: h;
+}
+
+
+main {
+    grid-area: m;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+
+footer{
+    grid-area: f;
+    background-color: rgb(153, 163, 1);
+}
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    font-size: 10pt;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+body {
+    background-image: url("D_szgjatekok/kepek/black.png");
+    display: block;
+    margin:0px auto ;
+}
+
+
+
+
+
+
+
+
+#kozep {
+
+
+}
+
+
+
+nav {
+    background-color: rgb(51, 51, 51)
+
+
+}
+
+
+
+main, main *{
+    background-color: rgb(211, 211, 211);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
